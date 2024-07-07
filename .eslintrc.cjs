@@ -4,12 +4,12 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'prettier',
+    'plugin:prettier/recommended',
   ],
-  plugins: ['@typescript-eslint', 'react'],
+  plugins: ['@typescript-eslint', 'react', 'prettier'],
   rules: {
     '@typescript-eslint/no-explicit-any': 'error',
-    'react/prop-types': 'off',
+    'prettier/prettier': 'error',
   },
   settings: {
     react: {
